@@ -1,4 +1,4 @@
-# MyMonorepo
+# MyMonorepo - Integrated Repos
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -19,3 +19,31 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## sample Folder structure sample
+```
+happynrwl/
+├── apps/
+│   ├── happynrwlapp/
+│   ├── happynrwlapp-e2e/
+│   ├── adminapp/
+│   └── adminapp-e2e/
+├── libs/
+│   ├── happynrwlapp/
+│   │   ├── feature-main/
+│   │   ├── ui-table/
+│   │   └── utils-testing/
+│   ├── adminapp/
+│   │   ├── feature-main/
+│   │   ├── feature-login/
+│   │   ├── ui/
+│   │   └── utils-testing/
+│   └── shared/
+│       ├── ui/
+│       └── utils-testing/
+├── tools/
+├── nx.json
+├── package.json
+└── tsconfig.base.json
+
+```
